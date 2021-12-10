@@ -4,12 +4,12 @@
 import Player_Character
 import Enemy_Characters
 import random
-#import Read_In
+import Read_In
 
 # print(f"Story.__name__: {__name__}")
 
 def main():
-    #intro = Read_In.read_in()
+    intro = Read_In.read_in()
     name = input("What was your name again?:")
     class_pick = input("What was your job prior? a doctor, a soldier, an accountant, a police officer, or gun runner:").lower().strip()
     if class_pick == "doctor":
