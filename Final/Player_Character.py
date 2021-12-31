@@ -31,6 +31,7 @@ class player_character:
             f"Dodge: {self.dodge}\n"
         return character_sheet
 
+    #Player attacks Enemy and updates Enemy health
     def Player_attacking(self, enemy):
         result = 0
         if random.randint(1,100) >= enemy.dodge:
@@ -40,6 +41,8 @@ class player_character:
                 print(f"{self.name} attack missed")
             else:
                 enemy.health -= result
+                if enemy.health < 0:
+                    enemy.health = 0
 
         return result
 def main():

@@ -1,0 +1,13 @@
+Plan for the game:
+My plan is to design a D&D style Resident Evil game.
+My player will wake up in a hotel in the middle of Raccoon City.
+The player will explore room by room the hotel with random enemy encounters.
+Player will name themselves and roll for player stats.
+plan to include healing and inventory
+plan to include store to buy meds and weapons
+
+
+Multipule functions are used in each page. (project 4)
+The [read in] is converted to a list at line:81 to use time to slow down the speed at which it is printed on the screen. (project 5)
+project 6 (dictionaries, sets, scopes)
+both the player character and the enemy characters are built on classes. (project 7)
